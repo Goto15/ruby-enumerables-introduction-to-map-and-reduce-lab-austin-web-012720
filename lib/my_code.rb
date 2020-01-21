@@ -15,3 +15,10 @@ def map_to_square(array)
   end
   return array
 end
+
+def map_to_double(array)
+  for i in 0...(array.length)
+    array[i] *= 2
+  end
+  return array
+end

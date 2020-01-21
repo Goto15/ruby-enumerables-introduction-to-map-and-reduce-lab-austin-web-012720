@@ -27,8 +27,8 @@ def reduce_to_total(array, index: 0)
   sum = 0
   
   for i in index...(array.length)
-    puts index
     sum += array[i]
+    index += 1
   end
   return sum
 end

@@ -1,8 +1,5 @@
 def map_to_negativize(array)
-  
-  for i in array.length
-    array[i] *= -1
-  end
-  
-  return array
+  puts "-----------------------"
+  puts array
+  puts "-----------------------"
 end

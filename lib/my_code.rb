@@ -1,3 +1,6 @@
 def map_to_negativize(array)
-  for i in 
+  for i in 0...(array.length - 1)
+    array[i] *= -1
+  end
+  return array
 end

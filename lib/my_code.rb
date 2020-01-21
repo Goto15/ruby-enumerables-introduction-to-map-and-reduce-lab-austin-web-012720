@@ -23,7 +23,7 @@ def map_to_double(array)
   return array
 end
 
-def reduce_to_total(array, index = 0)
+def reduce_to_total(array:, index: 0)
   sum = 0
   
   for i in index...(array.length)

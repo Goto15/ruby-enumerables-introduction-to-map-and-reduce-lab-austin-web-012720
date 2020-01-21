@@ -33,3 +33,14 @@ def reduce_to_total(array, index=0)
   return sum
 end
 
+def reduce_to_all_true(array)
+  truthy = true 
+  
+  for i in 0...array.length
+    if !array[i]
+      truthy = false
+    end
+  end
+  
+  return truthy
+end

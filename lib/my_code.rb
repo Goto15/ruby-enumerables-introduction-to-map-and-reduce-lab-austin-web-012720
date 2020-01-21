@@ -44,3 +44,15 @@ def reduce_to_all_true(array)
   
   return truthy
 end
+
+def reduce_to_any_true(array)
+  truthy = false 
+  
+  for i in 0...array.length
+    if array[i]
+      truthy = true
+    end
+  end
+  
+  return truthy
+end

@@ -24,10 +24,9 @@ def map_to_double(array)
 end
 
 def reduce_to_total(array, index=0)
-  sum = 0
-  i = index
+  sum = index
   
-  for i in index...(array.length)
+  for i in 0...(array.length)
     puts index
     sum += array[i]
   end

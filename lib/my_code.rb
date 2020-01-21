@@ -1,9 +1,6 @@
 def map_to_negativize(array)
-  neg = -1
-  
-  array.each do |i|
-    neg *= i
+  for each in array
+    each *= -1
   end
-  
-  return neg
+  return array
 end
